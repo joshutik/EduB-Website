@@ -16,6 +16,9 @@
   margin-left: 30px;
 }
 
+.why-us{
+  margin-top: 200px;
+}
 
 
 .navbar img{
@@ -25,7 +28,7 @@
   header {
       position: relative;
       background-color: black;
-      height: 95vh;
+      height: 150vh;
       min-height: 25rem;
       width: 100%;
       overflow: hidden;
@@ -49,6 +52,9 @@
     header .container {
       position: relative;
       z-index: 2;
+      padding-bottom: 380px !important;
+
+      
     }
   
     /* Media Query for devices withi coarse pointers and no hover functionality */
@@ -87,17 +93,17 @@
         width: 40px;
         height: 20px;
     }
-  
+
     .d-fluid{
-        /* background-image: url(./assets/abstract-simple-dot-pattern-design-decoration-background_121035-35.jpg); */
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 100vh;
-        padding-top: 120px;
+        padding-top: 150px;
+
     }
   
     .d-row{
         margin-top: 100px !important;
+    }
+    .d-col{
+     padding-bottom: 150px !important;
     }
   
     .explore{
@@ -116,9 +122,13 @@
     }
 
 .d-container{
-  z-index: -1;
-  /* margin-top: -150px; */
-  
+  margin-top:-200px !important;
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 1 !important;
+  border-radius: 10px !important;
+  /* width: 80%; */
 }
 
 .button-1{
@@ -227,4 +237,11 @@ animation-timing-function: ease;
 57%  { transform: scale(1,1)    translateY(-7px); }
 64%  { transform: scale(1,1)    translateY(0); }
 100% { transform: scale(1,1)    translateY(0); }
+
 }
+
+/* @media  (max-width: 369px){
+  .d-col{
+    padding-bottom: 350px;
+  }
+} */
