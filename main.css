@@ -113,8 +113,10 @@
   
     .d-row{
         margin-top: 100px !important;
-        padding: 50px;
+        /* padding: 30px; */
     }
+
+  
     .d-col{
      padding-bottom: 150px !important;
     }
@@ -184,18 +186,10 @@ a:hover{
 } 
 
 
-ul{
-  list-style-type: none;
- 
-}
 .testimonial{
   margin-top: 110px !important ;
 }
 
-.lud{
-  height: 190px;
-  width: 280px;
-}
 /* .width{
   width: 280px;
   height: 98px;
