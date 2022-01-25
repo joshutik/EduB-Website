@@ -386,20 +386,19 @@ animation-timing-function: ease;
 
 .course-1{
   border-top:3px solid red !important;
-  margin-top: 100px;
 }
 .course-1:hover{
-/* padding-right: 30px!important; */
+padding-right: 30px!important;
 }
 
- .course-bg{
-  background-image:linear-gradient(60deg, rgba(0, 0, 0, 0.349), rgba(0, 0, 0, 0.568)), url(./images/DSC_7160.jpg);
+.course-bg{
+  background-image:linear-gradient(60deg, rgba(0, 0, 0, 0.349), rgba(0, 0, 0, 0.568)), url(./images/trrophy\ 01.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 70vh;
+  height: 100vh;
   padding: 20px;
-} 
+}
 .course-content{
   padding-top: 20px;
   margin-top: 100px;

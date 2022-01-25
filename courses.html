@@ -14,10 +14,10 @@
 
 <body>
     <!-- Nav-bar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <nav id="scroll" class="navbar navbar-expand-lg navbar-light bg-light sticky-top px-3">
         <div class="container-fluid">
-            <a class="navbar-brand ms-5" href="index.html"><img src="./assets/EduBureau high resolution-Logo 11.png" alt=""
-                    width="30" height="24" class="d-inline-block align-text-top ml-4"></a>
+            <a class="navbar-brand ms-5" href="index.html"><img src="./assets/EduBureau high resolution-Logo 11.png"
+                    alt="" width="30" height="24" class="d-inline-block align-text-top ml-4"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -101,175 +101,203 @@
 
     <div class="container-fluid course-bg text-white">
         <div class="row">
-            <div class="ms-5 col-lg-6 col-sm-12 course-content">
+            <div class="ms-5 col-lg-6 col-sm-12 course-content fs-6">
                 <h1>OUR STRATEGY:</h1>
                 <h1>GO THROUGH OUR COURSES</h1>
-                <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Ut beatae soluta repellat dolor
-                    quisquam quo quis praesentium alias. Id vel adipisci aut quod quidem eius saepe repudiandae a ex
-                    dolorem.
+                <P>Our coding club is structured to accommodate your preferences: a weekend schedule, a fast-tracked course, a self-paced learning schedule, or a standard learning schedule. The duration for either plan you choose is dependent on the course chosen.
                 </P>
             </div>
         </div>
     </div>
 
     <!-- course for scratch -->
-    <div class="container-fluid mt-4">
-        <div class="row mt-5 justify-content-center shadow-lg p-5">
-            <div class="col-lg-6 col-md-4 col-sm-6 ">
-                <h1 id="scratch" class="text-danger"><img src="./images/scratch icon.png" alt="" srcset=""> SCRATCH FOR KIDS</h1>
- 
-                <p class="text-left pt-4">
-                    When people, especially kids engage in logical thinking,<br>they grow in creativity and problem
-                    solving, which are<br>major life skills required for productivity and success.<br> Scratch is a
-                    programming language that consists of<br>virtual blocks of codes that are the building
-                    blocks for kids<br>(especially) and introduction to programming. Our Scratch<br>course will help you
-                    or
-                    your child create interactive stories,<br>games, and animations through logical thinking, and
-                    complete
-                    fun<br>projects, building a good startup for programming.
+    <section id="scratch">
+        <div data-bs-spy="scroll" data-bs-target="#scroll" data-bs-offset="0" class="scrollspy-example" tabindex="0">
 
-                </p>
-                <div class="mt-4 mb-5">
-                    <button type="button" class="btn btn-danger pb-2">Expolore The Courses</button>
-                    <button class="btn btn-outline-danger -2">SIGN IN</button>
+            <div class="container-fluid mt-5">
+                <div class="row mt-5 justify-content-center shadow-lg p-5">
+                    <div class="col-lg-6 col-md-4 col-sm-6 ">
+                        <h1 id="scratch" class="text-danger"><img src="./images/scratch icon.png" alt="" srcset="">
+                            SCRATCH
+                            FOR
+                            KIDS</h1>
 
-                </div>
-            </div>
-            <div class="col-lg-5 col-md-5 cols-sm-6  fs-5">
-                <div class="container border shadow-lg course-1">
-                    <div class="row pt-3">
-                        <div class="col-lg-6 col-md-6 col-sm-5 ">
-                            <p>
-                                <i class="bi bi-flower1"></i></i> Course details
-                            </p>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-5 fw-bold mb-5">
-                            <a href="#">Learn<i class="bi bi-chevron-compact-right"></i></a>
-                        </div>
-                        <hr>
-                        <div class="d-flex justify-content-evenly">
-                            <p class="bg-dange mr-3 rounded p-1">
-                                BEGINNER
-                            </p>
-                            <p class="bg-dange rounded p-2 rounded p-1 ">
-                                TRIAL PERIOD
-                            </p>
-                        </div>
-                        <div class="d-flex justify-content-evenly">
-                            <p>
-                                computer Thinking
-                            </p>
-                            <p>
-                                Programming
-                            </p>
-                        </div>
-                        <div class="d-flex justify-content-evenly">
-                            <p>
-                                Project Building
-                            </p>
+                        <p class="text-left pt-4">
+                            When people, especially kids engage in logical thinking,<br>they grow in creativity and
+                            problem
+                            solving, which are<br>major life skills required for productivity and success.<br> Scratch
+                            is a
+                            programming language that consists of<br>virtual blocks of codes that are the building
+                            blocks for kids<br>(especially) and introduction to programming. Our Scratch<br>course will
+                            help
+                            you
+                            or
+                            your child create interactive stories,<br>games, and animations through logical thinking,
+                            and
+                            complete
+                            fun<br>projects, building a good startup for programming.
 
-                            <p>
-                                Innovative Thinking
-                            </p>
+                        </p>
+                        <div class="mt-4 mb-5">
+                            <button type="button" class="btn btn-danger pb-2">Expolore The Courses</button>
+                            <button class="btn btn-outline-danger -2">SIGN UP</button>
+
                         </div>
                     </div>
+                    <div class="col-lg-5 col-md-5 cols-sm-6  fs-5">
+                        <div class="container border shadow-lg course-1">
+                            <div class="row pt-3">
+                                <div class="col-lg-6 col-md-6 col-sm-5 ">
+                                    <p>
+                                        <i class="bi bi-flower1"></i></i> Course details
+                                    </p>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-5 fw-bold mb-5">
+                                    <a href="#">Learn<i class="bi bi-chevron-compact-right"></i></a>
+                                </div>
+                                <hr>
+                                <div>
+                                    <table class="table table-dark table-striped">
+                                        <thead>
+                                            <tr class="">
+                                                <th scope="col">#</th>
+                                                <th scope="col">STANDARD</th>
+                                                <th scope="col">FAST-TRACK </th>
+                                                <th scope="col">WEEKEND</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th></th>
+                                                <td>(MON-FRI)<br>
+                                                    A.M/P.M
+                                                </td>
+                                                <td>(MON-FRI)<br>
+                                                    EXTENDED SESSION
+                                                </td>
+                                                <td>(3 SESSIONS ON SATURDAY)</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row"></th>
+                                                <td>4 months</td>
+                                                <td>2 months</td>
+                                                <td>6 months</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
 
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- course for blockly -->
-    <div class="container-fluid mt-4">
-        <div class="row mt-5 justify-content-center shadow-lg p-5">
-            <div id="blockly" class="col-lg-6 col-md-4 col-sm-6 ">
-                <h1 id="Blockly" class="text-primary">BLOCKLY</h1>
-                <p class="text-left pt-4">
-                    Blockly is simply a series of educational games that teaches programming. With Blockly, learning is
-                    self-paced and designed for people who have little or no knowledge of programming. By the end of
-                    these
-                    games, players are ready to use conventional text-based languages.
-                    Our Blockly course will enable users to create scripts and programmes by using visual blocks, even
-                    though they do not know any programming language. It includes everything you need for defining and
-                    rendering blocks in a drag-n-drop editor.
-                    Blockly provides a platform for our students to play games and learn the concept of programming
-                    simultaneously.
-
-                </p>
-                <div class="mt-4">
-                    <button type="button" class="btn btn-primary">Expolore The Courses</button>
-                    <button class="btn btn-outline-primary">SIGN IN</button>
-
-                </div>
-            </div>
-            <div class="col-lg-5 col-md-5 cols-sm-6 fs-6">
-                <div class="container border shadow-lg course-1">
-                    <div class="row pt-3">
-                        <div class="col-lg-6 col-md-6 col-sm-5 ">
-                            <p>
-                                <i class="bi bi-app-indicator"></i> Course details
-                            </p>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-5 fw-bold">
-                            <a href="#">Learn<i class="bi bi-chevron-compact-right"></i></a>
-                        </div>
-                        <hr>
-                        <div class="d-flex justify-content-evenly">
-                            <p class="bg-dange mr-3 rounded p-1">
-                                BEGINNER
-                            </p>
-                            <p class="bg-dange rounded p-2 rounded p-1 ">
-                                TRIAL PERIOD
-                            </p>
-                        </div>
-                        <div class="d-flex justify-content-evenly">
-                            <p>
-                                computer Thinking
-                            </p>
-                            <p>
-                                Programming
-                            </p>
-                        </div>
-                        <div class="d-flex justify-content-evenly">
-                            <p>
-                                Project Building
-                            </p>
-
-                            <p>
-                                Innovative Thinking
-                            </p>
                         </div>
                     </div>
-
                 </div>
             </div>
-        </div>
+    </section>
 
+    <section>
+        <!-- course for blockly -->
+        <div class="container-fluid mt-4">
+            <div class="row mt-5 justify-content-center shadow-lg p-5">
+                <div id="blockly" class="col-lg-6 col-md-4 col-sm-6 ">
+                    <h1 id="Blockly" class="text-primary">BLOCKLY</h1>
+                    <p class="text-left pt-4">
+                        Blockly is simply a series of educational games that teaches programming. With Blockly, learning
+                        is
+                        self-paced and designed for people who have little or no knowledge of programming. By the end of
+                        these
+                        games, players are ready to use conventional text-based languages.
+                        Our Blockly course will enable users to create scripts and programmes by using visual blocks,
+                        even
+                        though they do not know any programming language. It includes everything you need for defining
+                        and
+                        rendering blocks in a drag-n-drop editor.
+                        Blockly provides a platform for our students to play games and learn the concept of programming
+                        simultaneously.
+
+                    </p>
+                    <div class="mt-4">
+                        <button type="button" class="btn btn-primary">Expolore The Courses</button>
+                        <button class="btn btn-outline-primary">SIGN UP</button>
+
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-5 cols-sm-6 fs-6">
+                    <div class="container border shadow-lg course-1">
+                        <div class="row pt-3">
+                            <div class="col-lg-6 col-md-6 col-sm-5 ">
+                                <p>
+                                    <i class="bi bi-app-indicator"></i> Course details
+                                </p>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-5 fw-bold">
+                                <a href="#">Learn<i class="bi bi-chevron-compact-right"></i></a>
+                            </div>
+                            <hr>
+                            <div>
+                                <table class="table table-dark table-striped">
+                                    <thead>
+                                        <tr class="">
+                                            <th scope="col">#</th>
+                                            <th scope="col">STANDARD</th>
+                                            <th scope="col">FAST-TRACK </th>
+                                            <th scope="col">WEEKEND</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th></th>
+                                            <td>(MON-FRI)<br>
+                                                A.M/P.M
+                                            </td>
+                                            <td>(MON-FRI)<br>
+                                                EXTENDED SESSION
+                                            </td>
+                                            <td>(3 SESSIONS ON SATURDAY)</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"></th>
+                                            <td>4 months</td>
+                                            <td>2 months</td>
+                                            <td>6 months</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section>
         <!-- course for robotics -->
         <div class="container-fluid mt-4">
             <div class="row mt-5 mb-5 justify-content-center shadow-lg mb-5 p-5">
                 <div id="robotics" class="col-lg-6 col-md-4 col-sm-6">
                     <h1 id="Robotics" class="text-success">ROBOTICS FOR KIDS</h1>
                     <p class="text-left pt-4">
-                        Robots are the new humans! Many are yet to realise that the efforts and services of humans are
+                        Robots are the new humans! Many are yet to realise that the efforts and services of humans
+                        are
                         gradually
-                        being replaced by robots. Thus, in recent times, there has been a huge increase in the creation,
+                        being replaced by robots. Thus, in recent times, there has been a huge increase in the
+                        creation,
                         shipment and sales of robots, as well as an increase of job opportunities in the Robotics
                         industry.
-                        Ever thought of building or managing machines that execute the same tasks that wear you out or
+                        Ever thought of building or managing machines that execute the same tasks that wear you out
+                        or
                         having
-                        your kids do so? This is the future of work. Our Robotics course equips learners to code Virtual
+                        your kids do so? This is the future of work. Our Robotics course equips learners to code
+                        Virtual
                         3D
                         robots.
 
                     </p>
                     <div class="mt-4">
-                        <button type="button" class="btn btn-succes">Expolore The Courses</button>
-                        <button class="btn btn-outline-success">SIGN IN</button>
+                        <button type="button" class="btn btn-success">Expolore The Courses</button>
+                        <button class="btn btn-outline-success">SIGN UP</button>
                     </div>
                 </div>
-                <div class="col-lg-5 col-md-5 cols-sm-6  fs-5">
+                <div class="col-lg-5 col-md-5 cols-sm-6  fs-6">
                     <div class="container border shadow-lg course-1">
                         <div class="row pt-3 d-flex">
                             <div class="d-flex d-sm-inline-flex justify-content-between">
@@ -280,30 +308,35 @@
                                 <a href="#">Learn<i class="bi bi-chevron-compact-right"></i></a>
                             </div>
                             <hr>
-                            <div class="d-flex d-sm-inline-flex justify-content-evenly">
-                                <p class="bg-dange mr-3 rounded p-1 text-left">
-                                    BEGINNER
-                                </p>
-                                <p class="bg-dange rounded p-2 rounded p-1 ">
-                                    TRIAL PERIOD
-                                </p>
-                            </div>
-                            <div class="d-flex justify-content-evenly">
-                                <p>
-                                    computer Thinking
-                                </p>
-                                <p>
-                                    Programming
-                                </p>
-                            </div>
-                            <div class="d-flex justify-content-evenly">
-                                <p>
-                                    Project Building
-                                </p>
-
-                                <p>
-                                    Innovative Thinking
-                                </p>
+                            <div>
+                                <table class="table table-dark table-striped">
+                                    <thead>
+                                        <tr class="">
+                                            <th scope="col">#</th>
+                                            <th scope="col">STANDARD</th>
+                                            <th scope="col">FAST-TRACK </th>
+                                            <th scope="col">WEEKEND</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th></th>
+                                            <td>(MON-FRI)<br>
+                                                A.M/P.M
+                                            </td>
+                                            <td>(MON-FRI)<br>
+                                                EXTENDED SESSION
+                                            </td>
+                                            <td>(3 SESSIONS ON SATURDAY)</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"></th>
+                                            <td>4 months</td>
+                                            <td>2 months</td>
+                                            <td>6 months</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
                             </div>
                         </div>
 
@@ -311,23 +344,37 @@
                 </div>
             </div>
         </div>
-
+    </section>
+    <section>
         <!-- course for python -->
         <div class="container-fluid mt-4">
             <div class="row mt-5 justify-content-center shadow-lg p-5 pb-5">
                 <div class="col-lg-6 col-md-4 col-sm-6">
                     <h1 id="Python" class="text-danger">PYTHON</h1>
                     <p class="text-left pt-4">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Laboriosam sunt, perferendis rem
-                        fugiat
-                        perspiciatis et<br>quod laudantium culpa quam doloremque!
+                        Logical thinking is the key to understanding coding concepts. Writing Python codes for
+                        various
+                        programs will enable learners to visualize and comprehend abstract concepts. This, in turn
+                        will
+                        also trigger their ability to analyze and solve math problems. In this era of
+                        digitalization,
+                        nothing can surpass the importance of coding. Python has gained popularity over the years
+                        and is
+                        one of the most convenient options among other programming languages like Java, C#, etc.
+                        Learning Python for kids is quite an achievable task, even if they do not have any prior
+                        knowledge of coding. Despite various enhancements, the basic structure of the programming
+                        language of Python remains unaltered.
+                        At the end of our Python course at EduBureau Coding Club, our students should be able to
+                        apply
+                        what they have learnt in Data Science, App and Game Development, website backend, etc.
+
                     </p>
                     <div class="mt-4">
                         <button type="button" class="btn btn-danger">Expolore The Courses</button>
-                        <button class="btn btn-outline-danger">SIGN IN</button>
+                        <button class="btn btn-outline-danger">SIGN UP</button>
                     </div>
                 </div>
-                <div class="col-lg-5 col-md-5 cols-sm-6  fs-5">
+                <div class="col-lg-5 col-md-5 cols-sm-6  fs-6">
                     <div class="container border shadow-lg course-1">
                         <div class="row pt-3">
                             <div class="col-lg-6 col-md-6 col-sm-5 ">
@@ -339,30 +386,35 @@
                                 <a href="#">Learn<i class="bi bi-chevron-compact-right"></i></a>
                             </div>
                             <hr>
-                            <div class="d-flex justify-content-evenly">
-                                <p class="bg-dange mr-3 rounded p-1">
-                                    BEGINNER
-                                </p>
-                                <p class="bg-dange rounded p-2 rounded p-1 ">
-                                    TRIAL PERIOD
-                                </p>
-                            </div>
-                            <div class="d-flex justify-content-evenly">
-                                <p>
-                                    computer Thinking
-                                </p>
-                                <p>
-                                    Programming
-                                </p>
-                            </div>
-                            <div class="d-flex justify-content-evenly">
-                                <p>
-                                    Project Building
-                                </p>
-
-                                <p>
-                                    Innovative Thinking
-                                </p>
+                            <div>
+                                <table class="table table-dark table-striped">
+                                    <thead>
+                                        <tr class="">
+                                            <th scope="col">#</th>
+                                            <th scope="col">STANDARD</th>
+                                            <th scope="col">FAST-TRACK </th>
+                                            <th scope="col">WEEKEND</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th></th>
+                                            <td>(MON-FRI)<br>
+                                                A.M/P.M
+                                            </td>
+                                            <td>(MON-FRI)<br>
+                                                EXTENDED SESSION
+                                            </td>
+                                            <td>(3 SESSIONS ON SATURDAY)</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"></th>
+                                            <td>4 months</td>
+                                            <td>2 months</td>
+                                            <td>6 months</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
                             </div>
                         </div>
 
@@ -370,7 +422,8 @@
                 </div>
             </div>
         </div>
-
+    </section>
+    <section>
         <!-- course for Web Development -->
         <div class="container-fluid mt-4">
             <div class="row mt-5 justify-content-center shadow-lg mb-5">
@@ -385,7 +438,8 @@
                         browsers,
                         computers, and mobile devices interact with the web or what skills are necessary to build a
                         website?
-                        Finding the answers to these questions could be your first step towards a better understanding
+                        Finding the answers to these questions could be your first step towards a better
+                        understanding
                         of the
                         internet and developing a new set of internet skills.
                         In our Web Development Course, learners are taught the following skills:<br>
@@ -403,13 +457,13 @@
                             <button type="button" class="btn btn-primary">Expolore The Courses</button>
                         </div>
                         <div class="ml-3">
-                            <button class="btn btn-outline-primary">SIGN IN</button>
+                            <button class="btn btn-outline-primary">SIGN UP</button>
                         </div>
-                        
-                        
+
+
                     </div>
                 </div>
-                <div class="col-lg-5 col-md-5 cols-sm-6  fs-5">
+                <div class="col-lg-5 col-md-5 cols-sm-6  fs-6">
                     <div class="container border shadow-lg course-1">
                         <div class="row pt-3">
                             <div class="col-lg-6 col-md-6 col-sm-5 ">
@@ -417,34 +471,37 @@
                                     <i class="bi bi-file-earmark-text"></i> Course details
                                 </p>
                             </div>
-                            <div class="col-lg-6 col-md-6 col-sm-5 fw-bold">
-                                <a href="#">Learn<i class="bi bi-chevron-compact-right"></i></a>
-                            </div>
                             <hr>
-                            <div class="d-flex justify-content-evenly">
-                                <p class="bg-dange mr-3 rounded p-1">
-                                    BEGINNER
-                                </p>
-                                <p class="bg-dange rounded p-2 rounded p-1 ">
-                                    TRIAL PERIOD
-                                </p>
-                            </div>
-                            <div class="d-flex justify-content-evenly">
-                                <p>
-                                    computer Thinking
-                                </p>
-                                <p>
-                                    Programming
-                                </p>
-                            </div>
-                            <div class="d-flex justify-content-evenly">
-                                <p>
-                                    Project Building
-                                </p>
+                            <div>
+                                <table class="table table-dark table-striped">
+                                    <thead>
+                                        <tr class="">
+                                            <th scope="col">#</th>
+                                            <th scope="col">STANDARD</th>
+                                            <th scope="col">FAST-TRACK </th>
+                                            <th scope="col">WEEKEND</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th></th>
+                                            <td>(MON-FRI)<br>
+                                                A.M/P.M
+                                            </td>
+                                            <td>(MON-FRI)<br>
+                                                EXTENDED SESSION
+                                            </td>
+                                            <td>(3 SESSIONS ON SATURDAY)</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"></th>
+                                            <td>4 months</td>
+                                            <td>2 months</td>
+                                            <td>6 months</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
 
-                                <p>
-                                    Innovative Thinking
-                                </p>
                             </div>
                         </div>
 
@@ -452,26 +509,34 @@
                 </div>
             </div>
         </div>
+    </section>
+    <section>
         <!-- course for Android app  Development -->
         <div class="container-fluid mt-4">
             <div class="row mt-5 justify-content-center shadow-lg p-5 pb-5">
                 <div class="col-lg-6 col-md-4 col-sm-6">
                     <h1 id="Android App">ANDROID APP DEVELOPMENT</h1>
                     <p class="text-left pt-4">
-                        There are several games available on the Internet for download on your mobile device and many of
+                        There are several games available on the Internet for download on your mobile device and
+                        many of
                         such
-                        apps are used and enjoyed by individuals all around the world. The question is: why do we only
+                        apps are used and enjoyed by individuals all around the world. The question is: why do we
+                        only
                         play
                         these games when we can also create them for both pleasure and profit?
-                        In our mobile app development course, learners will be introduced to this aspect of coding and
+                        In our mobile app development course, learners will be introduced to this aspect of coding
+                        and
                         building
                         mobile apps from scratch. In this track, the students will be responsible for designing
                         programme logic
-                        and coding programmes for various applications. Learning mobile app development at our coding
+                        and coding programmes for various applications. Learning mobile app development at our
+                        coding
                         club will
-                        allow students to come up with ideas that can be implemented into an app, which in turn could
+                        allow students to come up with ideas that can be implemented into an app, which in turn
+                        could
                         contribute
-                        to problem solving in society. In this course, our students will be introduced to the following
+                        to problem solving in society. In this course, our students will be introduced to the
+                        following
                         concepts:<br>
                         Basic constructs<br>
                         Conditional Statements<br>
@@ -480,10 +545,10 @@
                     </p>
                     <div class="mt-4">
                         <button type="button" class="btn btn-danger">Expolore The Courses</button>
-                        <button class="btn btn-outline-danger">SIGN IN</button>
+                        <button class="btn btn-outline-danger">SIGN UP</button>
                     </div>
                 </div>
-                <div class="col-lg-5 col-md-5 cols-sm-6  fs-5">
+                <div class="col-lg-5 col-md-5 cols-sm-6  fs-6">
                     <div class="container border shadow-lg course-1">
                         <div class="row pt-3">
                             <div class="col-lg-6 col-md-6 col-sm-5 ">
@@ -491,41 +556,45 @@
                                     <i class="bi bi-file-earmark-text"></i> Course details
                                 </p>
                             </div>
-                            <div class="col-lg-6 col-md-6 col-sm-5 fw-bold">
-                                <a href="#">Learn<i class="bi bi-chevron-compact-right"></i></a>
-                            </div>
                             <hr>
-                            <div class="d-flex justify-content-evenly">
-                                <p class="bg-dange mr-3 rounded p-1">
-                                    BEGINNER
-                                </p>
-                                <p class="bg-dange rounded p-2 rounded p-1 ">
-                                    TRIAL PERIOD
-                                </p>
-                            </div>
-                            <div class="d-flex justify-content-evenly">
-                                <p>
-                                    computer Thinking
-                                </p>
-                                <p>
-                                    Programming
-                                </p>
-                            </div>
-                            <div class="d-flex justify-content-evenly">
-                                <p>
-                                    Project Building
-                                </p>
-
-                                <p>
-                                    Innovative Thinking
-                                </p>
+                            <div>
+                                <table class="table table-dark table-striped">
+                                    <thead>
+                                        <tr class="">
+                                            <th scope="col">#</th>
+                                            <th scope="col">STANDARD</th>
+                                            <th scope="col">FAST-TRACK </th>
+                                            <th scope="col">WEEKEND</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th></th>
+                                            <td>(MON-FRI)<br>
+                                                A.M/P.M
+                                            </td>
+                                            <td>(MON-FRI)<br>
+                                                EXTENDED SESSION
+                                            </td>
+                                            <td>(3 SESSIONS ON SATURDAY)</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"></th>
+                                            <td>4 months</td>
+                                            <td>2 months</td>
+                                            <td>6 months</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
         </div>
+
+    </section>
+    <section>
         <!-- course for  Embedded systems -->
         <div class="container-fluid mt-4">
             <div class="row mt-5 justify-content-center shadow-lg p-5 pb-5">
@@ -533,8 +602,10 @@
                     <h1>EMBEDDED SYSTEMS</h1>
                     <p class="text-left pt-4">
                         Microcontrollers and sensors are used to build intelligent systems on electronic hardware to
-                        provide solutions to our daily problems, such as medical applications, transportation, etc. Our
-                        learners are taught the use of programming platforms such as Arduino Toolkits and Raspberry Pi
+                        provide solutions to our daily problems, such as medical applications, transportation, etc.
+                        Our
+                        learners are taught the use of programming platforms such as Arduino Toolkits and Raspberry
+                        Pi
                         to achieve the aforementioned.
                     </p>
                     <div class="mt-4">
@@ -542,7 +613,7 @@
                         <button class="btn btn-outline-danger">SIGN UP</button>
                     </div>
                 </div>
-                <div class="col-lg-5 col-md-5 cols-sm-6  fs-5">
+                <div class="col-lg-5 col-md-5 cols-sm-6  fs-6">
                     <div class="container border shadow-lg course-1">
                         <div class="row pt-3">
                             <div class="col-lg-6 col-md-6 col-sm-5 ">
@@ -551,73 +622,46 @@
                                 </p>
 
                             </div>
-                            <div class="col-lg-6 col-md-6 col-sm-5 fw-bold">
-                                <a href="#">Learn<i class="bi bi-chevron-compact-right"></i></a>
-                            </div>
                             <hr>
-                            <div class="d-flex justify-content-evenly">
-                                <div>
-                                    <p class="bg-dange mr-3 rounded p-1">
-                                        Fast Track
-                                    </p>
-                                    <ul>
-                                        <li>(MON-FRI)
-                                            A.M/P.M
-                                        </li>
-                                        <li>2 MONTHS</li>
-
-                                    </ul>
-
-                                </div>
-                                <div class="">
-                                    <p class="bg-dange rounded p-2 rounded p-1 ">
-                                        Standard
-                                    </p>
-                                    <ul>
-                                        <li>(MON-FRI)
-                                            A.M/P.M
-                                        </li>
-                                        <li>2 MONTHS</li>
-
-                                    </ul>
-                                </div>
-
-                                <div>
-                                    <p class="bg-dange rounded p-2 rounded p-1 ">
-                                        Weekends
-                                    </p>
-                                    <ul>
-                                        <li>(MON-FRI)
-                                            A.M/P.M
-                                        </li>
-                                        <li>2 MONTHS</li>
-
-                                    </ul>
-                                </div>
+                            <div>
+                                <table class="table table-dark table-striped">
+                                    <thead>
+                                        <tr class="">
+                                            <th scope="col">#</th>
+                                            <th scope="col">STANDARD</th>
+                                            <th scope="col">FAST-TRACK </th>
+                                            <th scope="col">WEEKEND</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th></th>
+                                            <td>(MON-FRI)<br>
+                                                A.M/P.M
+                                            </td>
+                                            <td>(MON-FRI)<br>
+                                                EXTENDED SESSION
+                                            </td>
+                                            <td>(3 SESSIONS ON SATURDAY)</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"></th>
+                                            <td>4 months</td>
+                                            <td>2 months</td>
+                                            <td>6 months</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
                             </div>
-                            <div class="d-flex justify-content-evenly">
-                                <p>
-                                    computer Thinking
-                                </p>
-                                <p>
-                                    Programming
-                                </p>
-                            </div>
-                            <div class="d-flex justify-content-evenly">
-                                <p>
-                                    Project Building
-                                </p>
 
-                                <p>
-                                    Innovative Thinking
-                                </p>
-                            </div>
                         </div>
-
                     </div>
                 </div>
             </div>
-        </div>
+            
+    </section>
+
+    <section>
         <!-- course for  UI/UX Designs -->
         <div class="container-fluid mt-4">
             <div class="row mt-5 justify-content-center shadow-lg p-5 pb-5">
@@ -632,10 +676,10 @@
                     </p>
                     <div class="mt-4">
                         <button type="button" class="btn btn-danger">Expolore The Courses</button>
-                        <button class="btn btn-outline-danger">SIGN IN</button>
+                        <button class="btn btn-outline-danger">SIGN UP</button>
                     </div>
                 </div>
-                <div class="col-lg-5 col-md-5 cols-sm-6  fs-5">
+                <div class="col-lg-5 col-md-5 cols-sm-6  fs-6">
                     <div class="container border shadow-lg course-1">
                         <div class="row pt-3">
                             <div class="col-lg-6 col-md-6 col-sm-5 ">
@@ -647,37 +691,43 @@
                                 <a href="#">Learn <i class="bi bi-chevron-compact-right"></i></a>
                             </div>
                             <hr>
-                            <div class="d-flex justify-content-evenly">
-                                <p class="bg-dange mr-3 rounded p-1">
-
-                                </p>
-                                <p class="bg-dange rounded p-2 rounded p-1 ">
-                                    TRIAL PERIOD
-                                </p>
-                            </div>
-                            <div class="d-flex justify-content-evenly">
-                                <p>
-                                    computer Thinking
-                                </p>
-                                <p>
-                                    Programming
-                                </p>
-                            </div>
-                            <div class="d-flex justify-content-evenly">
-                                <p>
-                                    Project Building
-                                </p>
-
-                                <p>
-                                    Innovative Thinking
-                                </p>
+                            <div>
+                                <table class="table table-dark table-striped">
+                                    <thead>
+                                        <tr class="">
+                                            <th scope="col">#</th>
+                                            <th scope="col">STANDARD</th>
+                                            <th scope="col">FAST-TRACK </th>
+                                            <th scope="col">WEEKEND</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th></th>
+                                            <td>(MON-FRI)<br>
+                                                A.M/P.M
+                                            </td>
+                                            <td>(MON-FRI)<br>
+                                                EXTENDED SESSION
+                                            </td>
+                                            <td>(3 SESSIONS ON SATURDAY)</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"></th>
+                                            <td>4 months</td>
+                                            <td>2 months</td>
+                                            <td>6 months</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
-        </div>
+    </section>
+
+    <section>
         <!-- course for  Designs -->
         <div class="container-fluid mt-4">
             <div class="row mt-5 justify-content-center shadow-lg p-5 pb-5">
@@ -687,17 +737,18 @@
 
                         Graphic design is used to create visual content to communicate messages and solve problems.
 
-                        Our graphics design course is structured to equip our students with the following skills:<br>
+                        Our graphics design course is structured to equip our students with the following
+                        skills:<br>
                         • Colour and Colour Psychology<br>
                         • The art of creating visual content<br>
                         • Topography
                     </p>
                     <div class="mt-4">
                         <button type="button" class="btn btn-danger">Expolore The Courses</button>
-                        <button class="btn btn-outline-danger">SIGN IN</button>
+                        <button class="btn btn-outline-danger">SIGN UP</button>
                     </div>
                 </div>
-                <div class="col-lg-5 col-md-5 cols-sm-6  fs-5">
+                <div class="col-lg-5 col-md-5 cols-sm-6  fs-6">
                     <div class="container border shadow-lg course-1">
                         <div class="row pt-3">
                             <div class="col-lg-6 col-md-6 col-sm-5 ">
@@ -709,30 +760,35 @@
                                 <a href="#">Learn<i class="bi bi-chevron-compact-right"></i></a>
                             </div>
                             <hr>
-                            <div class="d-flex justify-content-evenly">
-                                <p class="bg-dange mr-3 rounded p-1">
-                                    BEGINNER
-                                </p>
-                                <p class="bg-dange rounded p-2 rounded p-1 ">
-                                    TRIAL PERIOD
-                                </p>
-                            </div>
-                            <div class="d-flex justify-content-evenly">
-                                <p>
-                                    computer Thinking
-                                </p>
-                                <p>
-                                    Programming
-                                </p>
-                            </div>
-                            <div class="d-flex justify-content-evenly">
-                                <p>
-                                    Project Building
-                                </p>
-
-                                <p>
-                                    Innovative Thinking
-                                </p>
+                            <div>
+                                <table class="table table-dark table-striped">
+                                    <thead>
+                                        <tr class="">
+                                            <th scope="col">#</th>
+                                            <th scope="col">STANDARD</th>
+                                            <th scope="col">FAST-TRACK </th>
+                                            <th scope="col">WEEKEND</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th></th>
+                                            <td>(MON-FRI)<br>
+                                                A.M/P.M
+                                            </td>
+                                            <td>(MON-FRI)<br>
+                                                EXTENDED SESSION
+                                            </td>
+                                            <td>(3 SESSIONS ON SATURDAY)</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"></th>
+                                            <td>4 months</td>
+                                            <td>2 months</td>
+                                            <td>6 months</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
                             </div>
                         </div>
 
@@ -740,47 +796,58 @@
                 </div>
             </div>
         </div>
+    </section>
+
+    <section>
         <!-- course for  Data Science -->
-        <div class="container-fluid mt-4">
+        <div class="container-fluid mt-4 mb-5">
             <div class="row mt-5 justify-content-center">
                 <div class="col-lg-6 col-md-4 col-sm-6">
                     <h1>DATA SCIENCE</h1>
                     <p class="text-left pt-4">
-                        In recent times, Data Science has become one of the most<br> profitable and most sought-after
-                        courses. It encompasses preparing<br> data for analysis, including cleansing, aggregating, and
+                        In recent times, Data Science has become one of the most<br> profitable and most
+                        sought-after
+                        courses. It encompasses preparing<br> data for analysis, including cleansing, aggregating,
+                        and
                         manipulating<br> the data to perform advanced data analysis.<br>
                         <br>
                         In our data analysis course, our students should:<br>
                         <br>
                         1. Have the entire toolbox needed to become a data scientist.
                         <br>
-                        2. Have acquired in-demand data science skills: Statistical analysis, Python programming with
-                        NumPy, pandas, matplotlib, and Seaborn, Advanced statistical analysis, Tableau, Machine Learning
+                        2. Have acquired in-demand data science skills: Statistical analysis, Python programming
+                        with
+                        NumPy, pandas, matplotlib, and Seaborn, Advanced statistical analysis, Tableau, Machine
+                        Learning
                         with stats models and scikit-learn, and Deep Learning with TensorFlow.
                         <br>
-                        3. Have an understanding of the data science field, learn how to pre-process data, understand
+                        3. Have an understanding of the data science field, learn how to pre-process data,
+                        understand
                         the mathematics behind Machine Learning (an absolute must which other courses don’t teach).
                         <br>
-                        4. Start coding in Python, learn how to use it for statistical analysis, and perform linear and
+                        4. Start coding in Python, learn how to use it for statistical analysis, and perform linear
+                        and
                         logistic regressions in Python.
                         <br>
                         5. Be able to carry out Cluster and Factor analysis, create Machine Learning algorithms in
                         Python using NumPy, statsmodels, and scikit-learn.
                         <br>
                         6. Be able to apply skills to real-life business cases, use state-of-the-art deep learning
-                        frameworks such as Google’s TensorFlow, develop a business intuition while coding and solving
+                        frameworks such as Google’s TensorFlow, develop a business intuition while coding and
+                        solving
                         tasks with big data, and unfold the power of deep neural networks.
                         <br>
                         7. Be able to improve Machine Learning algorithms by studying underfitting, overfitting,
-                        training, validation, n-fold cross-validation, testing, and how hyperparameters could improve
+                        training, validation, n-fold cross-validation, testing, and how hyperparameters could
+                        improve
                         performance.
                     </p>
                     <div class="mt-4">
                         <button type="button" class="btn btn-danger">Expolore The Courses</button>
-                        <button class="btn btn-outline-danger">SIGN IN</button>
+                        <button class="btn btn-outline-danger">SIGN UP</button>
                     </div>
                 </div>
-                <div class="col-lg-5 col-md-5 cols-sm-6  fs-5">
+                <div class="col-lg-5 col-md-5 cols-sm-6  fs-6">
                     <div class="container border shadow-lg course-1">
                         <div class="row pt-3">
                             <div class="col-lg-6 col-md-6 col-sm-5 ">
@@ -792,30 +859,35 @@
                                 <a href="#">Learn<i class="bi bi-chevron-compact-right"></i></i></a>
                             </div>
                             <hr>
-                            <div class="d-flex justify-content-evenly">
-                                <p class="bg-dange mr-3 rounded p-1">
-                                    BEGINNER
-                                </p>
-                                <p class="bg-dange rounded p-2 rounded p-1 ">
-                                    TRIAL PERIOD
-                                </p>
-                            </div>
-                            <div class="d-flex justify-content-evenly">
-                                <p>
-                                    computer Thinking
-                                </p>
-                                <p>
-                                    Programming
-                                </p>
-                            </div>
-                            <div class="d-flex justify-content-evenly">
-                                <p>
-                                    Project Building
-                                </p>
-
-                                <p>
-                                    Innovative Thinking
-                                </p>
+                            <div class="my-auto">
+                                <table class="table table-dark table-striped">
+                                    <thead>
+                                        <tr class="">
+                                            <th scope="col">#</th>
+                                            <th scope="col">STANDARD</th>
+                                            <th scope="col">FAST-TRACK </th>
+                                            <th scope="col">WEEKEND</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th></th>
+                                            <td>(MON-FRI)<br>
+                                                A.M/P.M
+                                            </td>
+                                            <td>(MON-FRI)<br>
+                                                EXTENDED SESSION
+                                            </td>
+                                            <td>(3 SESSIONS ON SATURDAY)</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"></th>
+                                            <td>4 months</td>
+                                            <td>2 months</td>
+                                            <td>6 months</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
                             </div>
                         </div>
 
@@ -823,179 +895,185 @@
                 </div>
             </div>
         </div>
-    </div>
-
-
-
-
+    </section>
     <!-- <footer> -->
-        <!-- <div class="container-fluid footer-bg mt-5 mb-5">
+    <footer class="text-white pt-5 pb-4 bg-dark">
+        <div class="container-fluid text-center text-md-left">
+            <div class="row text-center text-md-left">
+                <div class="col-lg-3 col-xl-3 col-md-4 col-sm-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 fw-bold text-warning">UK OFFICE</h5>
+                    <address>
+                        3rd Floor, Riverside House, Riverside
+                        Drive AB11 7LH, Aberdeen Uk.
+                        +44(0) 751 221 4139
+                    </address>
+                    <p>
+                        <a href="contactedubureau.com" class="" style="text-decoration: none;">contactedubureau.com</a>
+                    </p>
+                </div>
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3 ">
+                    <h5 class="text-uppercase mb-4 fw-bold text-warning">LAGOS OFFICE</h5>
+                    <address class="address text-left">
+                        1st Floor, Capwire House, 19 Sinari<br>
+                        Daranijo street, Victoria Island, Lagos,<br>
+                        Nigeria.
+                    </address>
+                    <p>
+                        <a href="#">+234 (0) 908 238 3135</a>
+                    </p>
+                    <p>
+                        <a href="#">+234 (0) 708 807 3315</a>
+                    </p>
+                    <p>
+                        <a href="info@edubureau.com">info@edubureau.com</a>
+                    </p>
+                    <p>
+                        <a href="lagos@edubureau.com">lagos@edubureau.com</a>
+                    </p>
+                </div>
+                <div class="col-md-3 col-lg-3 col-xl-2 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 fw-bold text-warning">PORTHARCOURT OFFICE</h5>
+                    <address>
+                        1st and 2nd Floor, The Dome, 17 Peter<br>
+                        Odili Road, Trans-Amadi, Port-<br>
+                        Harcourt, Nigeria.
+                    </address>
+                    <p>
+                        <a href="info@edubureau.com">info@edubureau.com</a>
+                    </p>
+                    <p>
+                        <a href="#">+234 (0) 908 238 3135</a>
+                    </p>
+                    <p>
+                        <a href="#">+234 (0) 908 238 3136</a>
+                    </p>
+                    <p>
+                        <a href="portharcourt@edubureau.com">portharcourt@edubureau.com</a>
+                    </p>
+                </div>
+                <div class="col-md-3 col-lg-2 col-xlg-2 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 fw-bold text-warning">ABUJA OFFICE</h5>
+                    <address>
+                        46 Lobito Crescent, Wuse 2, Abuja, Nigeria.<br>
+                    </address>
+                    <p>
+                        <a href="#">+234 (0) 908 238 3135</a>
+                    </p>
+                    <p>
+                        <a href="info@edubureau.com">info@edubureau.com</a>
+                    </p>
+                    <p>
+                        <a href="abuja@edubureau.com">abuja@edubureau.com</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="container-fluid text-center text-md-left">
+            <div class="row text-center text-md-left">
+                <div class="col-lg-3 col-xl-3 col-md-4 col-sm-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 fw-bold text-warning">How it Works</h5>
+                    <p>
+                        <a href="#">How it Works</a>
+                    </p>
+                    <p>
+                        <a href="#">Why Choose EduBureau</a>
+                    </p>
+                </div>
 
-            <div class="footer-items">
-                <div class="row">
-                    <div class="col-lg-3 col-md-4 col-sm-6 text-left">
-                        <ul>
-                            <li> <a class="text-warning" href="#">Uk OFFICE</a></li>
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3 ">
+                    <h5 class="text-uppercase text-warning">Courses</h5>
+                    <p>
+                        <a href="#Scratch">Scratch</a>
+                    </p>
+                    <p>
+                        <a href="#Blockly">Blockly</a>
+                    </p>
+
+                    <p>
+                        <a href="#Robotics">Robotics</a>
+                    </p>
+                    <p>
+                        <a href="#Python">Python</a>
+                    </p>
+                    <p>
+                        <a href="#Web Development">Web Development</a>
+                    </p>
+                    <p>
+                        <a href="#App Development">App Development</a>
+                    </p>
+                    <p>
+                        <a href="#Embedded Systems">Embedded Systems</a>
+                    </p>
+                    <p>
+                        <a href="#Cyber Security">Cyber Security</a>
+                    </p>
+                    <p>
+                        <a href="#Data Science">Data Science</a>
+                    </p>
+                </div>
+                <div class="col-md-3 col-lg-3 col-xl-2 mx-auto mt-3">
+                    <h5 class="text-uppercase text-warning fw-bold">About</h5>
+                    <p>
+                        <a href="#">Our teaching Philosopy</a>
+                    </p>
+
+                    <p>
+                        <a href="#">Our Team</a>
+                    </p>
+                    <p>
+                        <a href="#">Our Story</a>
+                    </p>
+                    <p>
+                        <a href="#">Blog</a>
+                    </p>
+                    <p>
+                        <a href="#">Contact us</a>
+                    </p>
+                </div>
+                <div class="col-md-3 col-lg-2 col-xlg-2 mx-auto mt-3">
+                    <h5 class="text-uppercase text-warning fw-bold">Support Center</h5>
+                    <p>
+                        <a href="#">FAQs</a>
+                    </p>
+                    <p>
+                        <a href="#">Help line</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-4">
+            <div class="row align-item-center">
+                <div class="col-md-9 col-lg-8">
+                    <p>
+                        copyright@2022 All rights reserved by:
+                        <a href="#">
+                            <strong>EduBureau</strong>
+                        </a>
+                    </p>
+                </div>
+                <div class="col-md-5 col-lg-4">
+                    <div class="text-center text-md-right">
+                        <ul class="list-unstyled list-inline">
+                            <li class="list-inline-item">
+                                <a href="" class="btn-floating btn-md" style="font-size: 23px;"><i
+                                        class="bi bi-facebook"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="" class="btn-floating btn-md" style="font-size: 23px;"><i
+                                        class="bi bi-instagram"></i></a>
+                            </li>
+                            <li class="list-inline-item ">
+                                <a href="#" class="btn-floating btn-md" style="font-size: 23px;"><i
+                                        class="bi bi-whatsapp"></i></a>
+                            </li>
                         </ul>
-
-                        <div class="d-block justify-content-start">
-                            <ul>
-                                <address>
-                                    3rd Floor, Riverside House, Riverside
-                                    Drive AB11 7LH, Aberdeen Uk.
-                                    +44(0) 751 221 4139
-                                </address>
-
-                                <a href="contactedubureau.com">contactedubureau.com</a>
-                            </ul>
-
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-4 col-sm-6">
-                        <ul>
-                            <li><a class="text-warning" href="#">LAGOS OFFICE</a></li>
-                        </ul>
-                        <div>
-                            <ul>
-                                <address class="address text-left">
-                                    1st Floor, Capwire House, 19 Sinari<br>
-                                    Daranijo street, Victoria Island, Lagos,<br>
-                                    Nigeria.
-                                </address>
-                                <li><a href="#">+234 (0) 908 238 3135</a></li>
-
-                                <li><a href="#">+234 (0) 708 807 3315</a></li>
-
-                                <li><a href="info@edubureau.com">info@edubureau.com</a></li>
-
-                                <li><a href="lagos@edubureau.com">lagos@edubureau.com</a></li>
-
-                            </ul>
-
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6">
-                        <ul>
-                            <li> <a class="text-warning" href="#">PORT HARCOURT OFFICE</a></li>
-                        </ul>
-                        <div>
-                            <ul>
-                                <address>
-                                    1st and 2nd Floor, The Dome, 17 Peter<br>
-                                    Odili Road, Trans-Amadi, Port-<br>
-                                    Harcourt, Nigeria.
-                                </address>
-                                <li><a href="info@edubureau.com">info@edubureau.com</a></li>
-                                <li><a href="#">+234 (0) 908 238 3135</a></li>
-                                <li><a href="#">+234 (0) 908 238 3136</a></li>
-                                <li><a href="portharcourt@edubureau.com">portharcourt@edubureau.com</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6">
-                        <ul>
-                            <li class=""><a class="text-warning" href="#">ABUJA OFFICE</a></li>
-                        </ul>
-                        <div>
-                            <ul>
-                                <address>
-                                    46 Lobito Crescent, Wuse 2, Abuja, Nigeria.<br>
-                                </address>
-                                <li><a href="#">+234 (0) 908 238 3135</a></li>
-                                <li><a href="info@edubureau.com">info@edubureau.com</a></li>
-                                <li><a href="abuja@edubureau.com">abuja@edubureau.com</a></li>
-                            </ul>
-                        </div>
                     </div>
                 </div>
             </div>
-            <hr>
-            <div class="container-fluid">
-                <div class="container-fluid footer-items">
-                    <div class="row">
-                        <div class="col-lg-3 col-md-4 col-sm-6">
-                            <ul>
-                                <li> <a class="text-warning" href="#">How it Works</a></li>
-                            </ul>
-                            <div class="d-block">
-                                <ul>
-                                    <li><a href="#">How it Works</a>
-                                    <li><a href="#">Reviews</a></li>
-                                    <li><a href="#">Why Choose EduBureau</a></li>
-                                </ul>
-                            </div>
-                        </div>
+        </div>
+    </footer>
 
-                        <div class="col-lg-3 col-md-4 col-sm-6">
-                            <ul>
-                                <li><a class="text-warning" href="#">Courses</a></li>
-                            </ul>
-                            <div>
-                                <ul>
-                                    <li><a href="#">Scratch</a></li>
-                                    <li><a href="#">Blockly for Kids</a></li>
-                                    <li><a href="#">Robotics for kids</a></li>
-                                    <li><a href="#">Python</a></li>
-                                    <li><a href="#">Web Development</a></li>
-                                    <li><a href="#">App Development</a></li>
-                                    <li><a href="#">Embedded Systems</a></li>
-                                    <li><a href="#">Cyber Security</a></li>
-                                    <li><a href="#">Data Science</a></li>
-                                </ul>
-
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-4 col-sm-6">
-                            <ul>
-                                <li> <a class="text-warning" href="#">About</a></li>
-                            </ul>
-                            <div>
-                                <ul>
-                                    <li><a href="#">Our teaching Philosopy</a></li>
-                                    <li><a href="#">Our Team</a></li>
-                                    <li><a href="#">Our Story</a></li>
-                                    <li><a href="#">Blog</a></li>
-                                    <li><a href="#">Contact us</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-4 col-sm-6">
-                            <ul>
-                                <li class=""><a class="text-warning" href="#">Support Center</a></li>
-                            </ul>
-                            <div>
-                                <ul>
-                                    <li><a href="#">FAQs</a></li>
-                                    <li><a href="#">Help line</a></li>
-
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
-            <!-- <div class="container">
-                <div class="row">
-                    <ul class="d-flex justify-content-evenly">
-                        <div class="">
-                            <li><a href="https://www.facebook.com/edubureaucodeclub/"><i class="bi bi-facebook"></i></a>
-                            </li>
-                        </div>
-
-                        <div class="">
-                            <li><a href="https://www.instagram.com/edubureaucoding?utm_medium=copy_link"><i
-                                        class="bi bi-instagram"></i></a></li>
-                        </div>
-                        <div class="">
-                            <li><a href="https://www.instagram.com/edubureaucoding?utm_medium=copy_link"><i
-                                        class="bi bi-youtube"></i></i></a></li>
-                        </div>
-                    </ul>
-                </div>
-            </div> -->
-        <!-- </div>
-    </footer> -->
 
     <script src="./js/jquery.min.js"></script>
     <script src="./js/popper.min.js"></script>
