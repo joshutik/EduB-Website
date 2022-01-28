@@ -368,32 +368,24 @@ animation-timing-function: ease;
 } */
 
 .bg-offer{
-  background-image:linear-gradient(60deg, rgba(26, 23, 23, 0.459), rgba(20, 16, 16, 0.404)), url(./images/dog\ with\ laptop.jpg);
+  background-image:linear-gradient(45deg, rgba(26, 23, 23, 0.568), rgba(20, 16, 16, 0.685)), url(./images/DSC_7257.jpg);
   background-size: cover;
-  background-position: left;
-  height: 130vh;
+  background-position:center;
+  height: 110vh;
 }
 
 .ofer-top{
- padding-top: 10px; 
+ padding-top: 30px;
+
 
 }
-.sticky{
-  /* position: -webkit-sticky; */
-  position: sticky;
-  top: 0;
-  padding: 5px;
-  background-color: #cae8ca;
-  border: 2px solid #4CAF50;
+.of-head{
+  padding-top: 170px !important;
 }
 
-/* .course-1{
-  border-top:3px solid red !important;
-} */
 
-/* .course-1:hover{
-padding-right: 30px!important;
-} */
+
+
 
 
 /* .course-bg{
@@ -461,5 +453,19 @@ padding-right: 30px!important;
     text-transform: capitalize;
     font-size: 65px;
     margin-bottom: 20px;
+}
+
+.table-bg{
+  background-color: #f0f2f78c !important;
+}
+.tr-bg{
+  background-color: rgb(0, 0, 180) !important;
+}
+.footer-bg{
+  background-color:rgb(0, 0, 180) !important;
+}
+.footer-bg > p{
+  color: red !important;
+
 }
 
