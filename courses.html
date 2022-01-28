@@ -6,9 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Courses</title>
+    <!-- bootstarap-links -->
     <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <link rel="stylesheet" href="main.css">
     <link href="./vendor/aos/aos.css" rel="stylesheet">
+
+
+    <!-- css-links -->
+    <link rel="stylesheet" href="./main.css">
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> -->
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
 </head>
 
@@ -38,11 +44,11 @@
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item" href="#Web Development">Web Development</a></li>
+                            <li><a class="dropdown-item" href="#Web-Development">Web Development</a></li>
                             <li><a class="dropdown-item" href="#Mobile-App-Development">Mobile App Development</a></li>
                             <li><a class="dropdown-item" href="#Data-Science">Data Science</a></li>
                             <li><a class="dropdown-item" href="#Graphic-Design">Graphic Design</a></li>
-                            <li><a class="dropdown-item" href="#UI/UX">UI/UX</a></li>
+                            <li><a class="dropdown-item" href="#UI-UX">UI/UX</a></li>
                             <li><a class="dropdown-item" href="#Embedded-Systems">Embedded Systems</a></li>
                         </ul>
                     </li>
@@ -58,12 +64,12 @@
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        <a class="nav-link dropdown-toggle" href="about.html" id="navbarDropdown" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
                             About
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">About Us</a></li>
+                            <li><a class="dropdown-item" href="about.html">About Us</a></li>
                             <li><a class="dropdown-item" href="#">Our Story</a></li>
                             <li><a class="dropdown-item" href="#">Our Team</a></li>
                         </ul>
@@ -91,7 +97,8 @@
                 </li>
                 </ul>
                 <form class="me-5">
-                    <button class="btn btn-outline-primary " type="submit">Sign Up</button>
+                    <button class="btn btn-outline-primary text-uppercase" type="submit"><a href="./Theform/form.html"
+                            style="text-decoration: none;">sign up</a></button>
                 </form>
             </div>
         </div>
@@ -99,25 +106,28 @@
     <!--end of nav-bar -->
 
 
-    <div class="container-fluid course-bg text-white">
+    <!-- <div class="container-fluid course-bg text-white">
         <div class="row">
             <div class="ms-5 col-lg-6 col-sm-12 course-content fs-6">
                 <h1>OUR STRATEGY:</h1>
                 <h1>GO THROUGH OUR COURSES</h1>
-                <P>Our coding club is structured to accommodate your preferences: a weekend schedule, a fast-tracked course, a self-paced learning schedule, or a standard learning schedule. The duration for either plan you choose is dependent on the course chosen.
+                <P>Our coding club is structured to accommodate your preferences: a weekend schedule, a fast-tracked
+                    course, a self-paced learning schedule, or a standard learning schedule. The duration for either
+                    plan you choose is dependent on the course chosen.
                 </P>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!-- course for scratch -->
-    <section id="scratch">
-        <div data-bs-spy="scroll" data-bs-target="#scroll" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+    <div id="scratch"></div>
+    <section>
+       
 
             <div class="container-fluid mt-5">
-                <div class="row mt-5 justify-content-center shadow-lg p-5">
-                    <div class="col-lg-6 col-md-4 col-sm-6 ">
-                        <h1 id="scratch" class="text-danger"><img src="./images/scratch icon.png" alt="" srcset="">
+                <div class="row mt-5 justify-content-center shadow-lg mb-5">
+                    <div class="col-lg-6 col-md-4 col-sm-6 p-3 pb-5 mb-3">
+                        <h1 class="text-danger"><img src="./images/scratch icon.png" alt="" srcset="">
                             SCRATCH
                             FOR
                             KIDS</h1>
@@ -139,24 +149,21 @@
 
                         </p>
                         <div class="mt-4 mb-5">
-                            <button type="button" class="btn btn-danger pb-2">Expolore The Courses</button>
-                            <button class="btn btn-outline-danger -2">SIGN UP</button>
+                            <button onclick="mySignUp()" class="btn btn-outline-danger text-uppercase fw-bold">sign
+                                up</button>
 
                         </div>
                     </div>
-                    <div class="col-lg-5 col-md-5 cols-sm-6  fs-5">
+                    <div class="col-lg-5 col-md-5 cols-sm-6 fs-5">
                         <div class="container border shadow-lg course-1">
                             <div class="row pt-3">
-                                <div class="col-lg-6 col-md-6 col-sm-5 ">
+                                <div class="col-lg-6 col-md-6 col-sm-5">
                                     <p>
                                         <i class="bi bi-flower1"></i></i> Course details
                                     </p>
                                 </div>
-                                <div class="col-lg-6 col-md-6 col-sm-5 fw-bold mb-5">
-                                    <a href="#">Learn<i class="bi bi-chevron-compact-right"></i></a>
-                                </div>
                                 <hr>
-                                <div>
+                                <div class="table-responsive-md overflow-auto">
                                     <table class="table table-dark table-striped">
                                         <thead>
                                             <tr class="">
@@ -179,48 +186,57 @@
                                             </tr>
                                             <tr>
                                                 <th scope="row"></th>
-                                                <td>4 months</td>
                                                 <td>2 months</td>
+                                                <td>1 months</td>
                                                 <td>6 months</td>
                                             </tr>
                                         </tbody>
                                     </table>
                                 </div>
                             </div>
-
                         </div>
                     </div>
+
+
                 </div>
+
             </div>
+    
     </section>
 
+    <div id="Blockly"></div>
     <section>
         <!-- course for blockly -->
         <div class="container-fluid mt-4">
-            <div class="row mt-5 justify-content-center shadow-lg p-5">
-                <div id="blockly" class="col-lg-6 col-md-4 col-sm-6 ">
-                    <h1 id="Blockly" class="text-primary">BLOCKLY</h1>
+            <div class="row mt-5 justify-content-center shadow-lg mb-5">
+                <div class="col-lg-6 col-md-6 col-sm-6 p-3 pb-5 mb-3">
+                    <h1 class="text-primary">BLOCKLY</h1>
                     <p class="text-left pt-4">
-                        Blockly is simply a series of educational games that teaches programming. With Blockly, learning
+                        Blockly is simply a series of educational games that teaches programming. With Blockly,
+                        learning
                         is
-                        self-paced and designed for people who have little or no knowledge of programming. By the end of
+                        self-paced and designed for people who have little or no knowledge of programming. By the
+                        end of
                         these
                         games, players are ready to use conventional text-based languages.
-                        Our Blockly course will enable users to create scripts and programmes by using visual blocks,
+                        Our Blockly course will enable users to create scripts and programmes by using visual
+                        blocks,
                         even
-                        though they do not know any programming language. It includes everything you need for defining
+                        though they do not know any programming language. It includes everything you need for
+                        defining
                         and
                         rendering blocks in a drag-n-drop editor.
-                        Blockly provides a platform for our students to play games and learn the concept of programming
+                        Blockly provides a platform for our students to play games and learn the concept of
+                        programming
                         simultaneously.
 
                     </p>
-                    <div class="mt-4">
-                        <button type="button" class="btn btn-primary">Expolore The Courses</button>
-                        <button class="btn btn-outline-primary">SIGN UP</button>
-
+                    <div class="ml-3">
+                        <button onclick="mySignUp()" class="btn btn-outline-primary text-uppercase fw-bold">sign
+                            up</button>
                     </div>
                 </div>
+
                 <div class="col-lg-5 col-md-5 cols-sm-6 fs-6">
                     <div class="container border shadow-lg course-1">
                         <div class="row pt-3">
@@ -230,10 +246,9 @@
                                 </p>
                             </div>
                             <div class="col-lg-6 col-md-6 col-sm-5 fw-bold">
-                                <a href="#">Learn<i class="bi bi-chevron-compact-right"></i></a>
                             </div>
                             <hr>
-                            <div>
+                            <div class="table-responsive overflow-auto">
                                 <table class="table table-dark table-striped">
                                     <thead>
                                         <tr class="">
@@ -256,24 +271,27 @@
                                         </tr>
                                         <tr>
                                             <th scope="row"></th>
-                                            <td>4 months</td>
                                             <td>2 months</td>
+                                            <td>1 months</td>
                                             <td>6 months</td>
                                         </tr>
                                     </tbody>
                                 </table>
                             </div>
                         </div>
-
                     </div>
+
                 </div>
             </div>
+        </div>
     </section>
+
+    <div id="Robotics"></div>
     <section>
         <!-- course for robotics -->
         <div class="container-fluid mt-4">
-            <div class="row mt-5 mb-5 justify-content-center shadow-lg mb-5 p-5">
-                <div id="robotics" class="col-lg-6 col-md-4 col-sm-6">
+            <div class="row mt-5 mb-5 justify-content-center shadow-lg mb-5">
+                <div class="col-lg-6 col-md-4 col-sm-6 p-3 pb-5 mb-3">
                     <h1 id="Robotics" class="text-success">ROBOTICS FOR KIDS</h1>
                     <p class="text-left pt-4">
                         Robots are the new humans! Many are yet to realise that the efforts and services of humans
@@ -293,22 +311,21 @@
 
                     </p>
                     <div class="mt-4">
-                        <button type="button" class="btn btn-success">Expolore The Courses</button>
-                        <button class="btn btn-outline-success">SIGN UP</button>
+
+                        <button onclick="mySignUp()" class="btn btn-outline-success text-uppercase fw-bold">sign
+                            up</button>
                     </div>
                 </div>
-                <div class="col-lg-5 col-md-5 cols-sm-6  fs-6">
+                <div class="col-lg-5 col-md-5 cols-sm-6 fs-6">
                     <div class="container border shadow-lg course-1">
                         <div class="row pt-3 d-flex">
                             <div class="d-flex d-sm-inline-flex justify-content-between">
                                 <p>
                                     <i class="bi bi-file-earmark-text"></i> Course details
                                 </p>
-
-                                <a href="#">Learn<i class="bi bi-chevron-compact-right"></i></a>
                             </div>
                             <hr>
-                            <div>
+                            <div class="table-responsive-md overflow-auto">
                                 <table class="table table-dark table-striped">
                                     <thead>
                                         <tr class="">
@@ -331,8 +348,8 @@
                                         </tr>
                                         <tr>
                                             <th scope="row"></th>
+                                            <td>6 months</td>
                                             <td>4 months</td>
-                                            <td>2 months</td>
                                             <td>6 months</td>
                                         </tr>
                                     </tbody>
@@ -345,12 +362,13 @@
             </div>
         </div>
     </section>
+    <div id="Python"></div>
     <section>
         <!-- course for python -->
         <div class="container-fluid mt-4">
-            <div class="row mt-5 justify-content-center shadow-lg p-5 pb-5">
-                <div class="col-lg-6 col-md-4 col-sm-6">
-                    <h1 id="Python" class="text-danger">PYTHON</h1>
+            <div class="row mt-5 justify-content-center shadow-lg mb-5">
+                <div class="col-lg-6 col-md-4 col-sm-6 p-3 pb-5 mb-3">
+                    <h1 class="text-danger">PYTHON</h1>
                     <p class="text-left pt-4">
                         Logical thinking is the key to understanding coding concepts. Writing Python codes for
                         various
@@ -370,8 +388,8 @@
 
                     </p>
                     <div class="mt-4">
-                        <button type="button" class="btn btn-danger">Expolore The Courses</button>
-                        <button class="btn btn-outline-danger">SIGN UP</button>
+                        <button onclick="mySignUp()" class="btn btn-outline-danger text-uppercase fw-bold">sign
+                            up</button>
                     </div>
                 </div>
                 <div class="col-lg-5 col-md-5 cols-sm-6  fs-6">
@@ -386,7 +404,7 @@
                                 <a href="#">Learn<i class="bi bi-chevron-compact-right"></i></a>
                             </div>
                             <hr>
-                            <div>
+                            <div class="table-responsive-md overflow-auto">
                                 <table class="table table-dark table-striped">
                                     <thead>
                                         <tr class="">
@@ -409,26 +427,26 @@
                                         </tr>
                                         <tr>
                                             <th scope="row"></th>
-                                            <td>4 months</td>
                                             <td>2 months</td>
-                                            <td>6 months</td>
+                                            <td>1 months</td>
+                                            <td>4 months</td>
                                         </tr>
                                     </tbody>
                                 </table>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <div id="Web-Development"></div>
     <section>
         <!-- course for Web Development -->
         <div class="container-fluid mt-4">
             <div class="row mt-5 justify-content-center shadow-lg mb-5">
-                <div class="col-lg-6 col-md-4 col-sm-6  mb-3">
-                    <h1 id="Web Development" class="text-primary">WEB DEVELOPMENT</h1>
+                <div class="col-lg-6 col-md-4 col-sm-6 p-3 pb-5 mb-3">
+                    <h1 class="text-primary">WEB DEVELOPMENT</h1>
                     <p class="text-left pt-4">
                         The web is indeed a wide space, and if you are the typical internet user, you probably visit
                         several
@@ -452,18 +470,12 @@
                         tomorrow.
 
                     </p>
-                    <div class="mt-4 mb-4 d-flex justify-content-center ">
-                        <div class="">
-                            <button type="button" class="btn btn-primary">Expolore The Courses</button>
-                        </div>
-                        <div class="ml-3">
-                            <button class="btn btn-outline-primary">SIGN UP</button>
-                        </div>
-
-
+                    <div class="ml-3">
+                        <button onclick="mySignUp()" class="btn btn-outline-primary fw-bold text-uppercase">sign
+                            up</a></button>
                     </div>
                 </div>
-                <div class="col-lg-5 col-md-5 cols-sm-6  fs-6">
+                <div class="col-lg-5 col-md-5 cols-sm-6 fs-6">
                     <div class="container border shadow-lg course-1">
                         <div class="row pt-3">
                             <div class="col-lg-6 col-md-6 col-sm-5 ">
@@ -472,7 +484,7 @@
                                 </p>
                             </div>
                             <hr>
-                            <div>
+                            <div class="table-responsive-md overflow-auto">
                                 <table class="table table-dark table-striped">
                                     <thead>
                                         <tr class="">
@@ -501,7 +513,6 @@
                                         </tr>
                                     </tbody>
                                 </table>
-
                             </div>
                         </div>
 
@@ -510,12 +521,13 @@
             </div>
         </div>
     </section>
+<div id="Android-App-Development"></div>
     <section>
         <!-- course for Android app  Development -->
         <div class="container-fluid mt-4">
-            <div class="row mt-5 justify-content-center shadow-lg p-5 pb-5">
-                <div class="col-lg-6 col-md-4 col-sm-6">
-                    <h1 id="Android App">ANDROID APP DEVELOPMENT</h1>
+            <div class="row mt-5 justify-content-center shadow-lg mb-5">
+                <div class="col-lg-6 col-md-4 col-sm-6 p-3 pb-5 mb-3">
+                    <h1 class="text-success">ANDROID APP DEVELOPMENT</h1>
                     <p class="text-left pt-4">
                         There are several games available on the Internet for download on your mobile device and
                         many of
@@ -543,12 +555,12 @@
                         App Design
 
                     </p>
-                    <div class="mt-4">
-                        <button type="button" class="btn btn-danger">Expolore The Courses</button>
-                        <button class="btn btn-outline-danger">SIGN UP</button>
+                    <div class="ml-3">
+                        <button onclick="mySignUp()" class="btn btn-outline-primary fw-bold text-uppercase">sign
+                            up</a></button>
                     </div>
                 </div>
-                <div class="col-lg-5 col-md-5 cols-sm-6  fs-6">
+                <div class="col-lg-5 col-md-5 cols-sm-6 fs-6">
                     <div class="container border shadow-lg course-1">
                         <div class="row pt-3">
                             <div class="col-lg-6 col-md-6 col-sm-5 ">
@@ -557,7 +569,7 @@
                                 </p>
                             </div>
                             <hr>
-                            <div>
+                            <div class="table-responsive-md overflow-auto">
                                 <table class="table table-dark table-striped">
                                     <thead>
                                         <tr class="">
@@ -580,9 +592,9 @@
                                         </tr>
                                         <tr>
                                             <th scope="row"></th>
-                                            <td>4 months</td>
-                                            <td>2 months</td>
                                             <td>6 months</td>
+                                            <td>4 months</td>
+                                            <td>12 months</td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -594,12 +606,13 @@
         </div>
 
     </section>
+    <div id="Ebedded-Systems"></div>
     <section>
         <!-- course for  Embedded systems -->
         <div class="container-fluid mt-4">
-            <div class="row mt-5 justify-content-center shadow-lg p-5 pb-5">
-                <div class="col-lg-6 col-md-4 col-sm-6">
-                    <h1>EMBEDDED SYSTEMS</h1>
+            <div class="row mt-5 justify-content-center shadow-lg mb-5">
+                <div class="col-lg-6 col-md-4 col-sm-6 p-3 pb-5 mb-3">
+                    <h1 class="text-danger">EMBEDDED SYSTEMS</h1>
                     <p class="text-left pt-4">
                         Microcontrollers and sensors are used to build intelligent systems on electronic hardware to
                         provide solutions to our daily problems, such as medical applications, transportation, etc.
@@ -608,12 +621,13 @@
                         Pi
                         to achieve the aforementioned.
                     </p>
-                    <div class="mt-4">
-                        <button type="button" class="btn btn-danger">Expolore The Courses</button>
-                        <button class="btn btn-outline-danger">SIGN UP</button>
+                    <div class="ml-3">
+
+                        <button onclick="mySignUp()" class="btn btn-outline-danger fw-bold text-uppercase">sign
+                            up</button>
                     </div>
                 </div>
-                <div class="col-lg-5 col-md-5 cols-sm-6  fs-6">
+                <div class="col-lg-5 col-md-5 cols-sm-6 fs-6">
                     <div class="container border shadow-lg course-1">
                         <div class="row pt-3">
                             <div class="col-lg-6 col-md-6 col-sm-5 ">
@@ -623,7 +637,7 @@
 
                             </div>
                             <hr>
-                            <div>
+                            <div class="table-responsive-md overflow-auto">
                                 <table class="table table-dark table-striped">
                                     <thead>
                                         <tr class="">
@@ -646,27 +660,26 @@
                                         </tr>
                                         <tr>
                                             <th scope="row"></th>
-                                            <td>4 months</td>
-                                            <td>2 months</td>
                                             <td>6 months</td>
+                                            <td>4 months</td>
+                                            <td>12 months</td>
                                         </tr>
                                     </tbody>
                                 </table>
                             </div>
-
                         </div>
                     </div>
                 </div>
             </div>
-            
+        </div>
     </section>
-
+    <div id="ui-ux"></div>
     <section>
         <!-- course for  UI/UX Designs -->
-        <div class="container-fluid mt-4">
-            <div class="row mt-5 justify-content-center shadow-lg p-5 pb-5">
-                <div class="col-lg-6 col-md-4 col-sm-6">
-                    <h1>UI/UX DESIGNS</h1>
+        <div class="container-fluid mt-4 mb-5">
+            <div class="row mt-5 justify-content-center shadow-lg mb-5">
+                <div class="col-lg-6 col-md-4 col-sm-6 p-3 pb-5 mb-3">
+                    <h1 class="text-primary">UI/UX DESIGNS</h1>
                     <p class="text-left pt-4">
                         In recent times, Data Science has become one of the most profitable and most sought-after
                         courses. It encompasses preparing data for analysis, including cleansing, aggregating, and
@@ -674,24 +687,21 @@
 
                         In our data analysis course, our students are taught the following:
                     </p>
-                    <div class="mt-4">
-                        <button type="button" class="btn btn-danger">Expolore The Courses</button>
-                        <button class="btn btn-outline-danger">SIGN UP</button>
+                    <div class="ml-3">
+                        <button onclick="mySignUp()" class="btn btn-outline-primary fw-bold text-uppercase">sign
+                            up</button>
                     </div>
                 </div>
-                <div class="col-lg-5 col-md-5 cols-sm-6  fs-6">
+                <div class="col-lg-5 col-md-5 cols-sm-6 fs-6">
                     <div class="container border shadow-lg course-1">
                         <div class="row pt-3">
-                            <div class="col-lg-6 col-md-6 col-sm-5 ">
+                            <div class="col-lg-6 col-md-6 col-sm-5">
                                 <p>
                                     <i class="bi bi-file-earmark-text"></i> Course details
                                 </p>
                             </div>
-                            <div class="col-lg-6 col-md-6 col-sm-5 fw-bold">
-                                <a href="#">Learn <i class="bi bi-chevron-compact-right"></i></a>
-                            </div>
                             <hr>
-                            <div>
+                            <div class="table-responsive-md overflow-auto">
                                 <table class="table table-dark table-striped">
                                     <thead>
                                         <tr class="">
@@ -714,9 +724,9 @@
                                         </tr>
                                         <tr>
                                             <th scope="row"></th>
-                                            <td>4 months</td>
                                             <td>2 months</td>
-                                            <td>6 months</td>
+                                            <td>1 months</td>
+                                            <td>4 months</td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -725,14 +735,15 @@
                     </div>
                 </div>
             </div>
+        </div>
     </section>
-
+<div id="graphic-designs"></div>
     <section>
-        <!-- course for  Designs -->
+        <!-- course for graphic Designs -->
         <div class="container-fluid mt-4">
-            <div class="row mt-5 justify-content-center shadow-lg p-5 pb-5">
-                <div class="col-lg-6 col-md-4 col-sm-6">
-                    <h1>GRAPHIC DESIGNS</h1>
+            <div class="row mt-5 justify-content-center shadow-lg p-3 pb-5">
+                <div class="col-lg-6 col-md-4 col-sm-6 p-3 pb-5 mb-3">
+                    <h1 class="text-success">GRAPHIC DESIGNS</h1>
                     <p class="text-left pt-4">
 
                         Graphic design is used to create visual content to communicate messages and solve problems.
@@ -744,8 +755,9 @@
                         • Topography
                     </p>
                     <div class="mt-4">
-                        <button type="button" class="btn btn-danger">Expolore The Courses</button>
-                        <button class="btn btn-outline-danger">SIGN UP</button>
+
+                        <button onclick="mySignUp()" class="btn btn-outline-success text-uppercase fw-bold">sign
+                            up</button>
                     </div>
                 </div>
                 <div class="col-lg-5 col-md-5 cols-sm-6  fs-6">
@@ -756,11 +768,8 @@
                                     <i class="bi bi-file-earmark-text"></i> Course details
                                 </p>
                             </div>
-                            <div class="col-lg-6 col-md-6 col-sm-5 fw-bold">
-                                <a href="#">Learn<i class="bi bi-chevron-compact-right"></i></a>
-                            </div>
                             <hr>
-                            <div>
+                            <div class="table-responsive-md overflow-auto">
                                 <table class="table table-dark table-striped">
                                     <thead>
                                         <tr class="">
@@ -784,7 +793,7 @@
                                         <tr>
                                             <th scope="row"></th>
                                             <td>4 months</td>
-                                            <td>2 months</td>
+                                            <td>3 months</td>
                                             <td>6 months</td>
                                         </tr>
                                     </tbody>
@@ -797,13 +806,13 @@
             </div>
         </div>
     </section>
-
+    <div id="data-science"></div>
     <section>
         <!-- course for  Data Science -->
         <div class="container-fluid mt-4 mb-5">
-            <div class="row mt-5 justify-content-center">
-                <div class="col-lg-6 col-md-4 col-sm-6">
-                    <h1>DATA SCIENCE</h1>
+            <div class="row mt-5 justify-content-center shadow-lg p-3 pb-5">
+                <div class="col-lg-6 col-md-4 col-sm-6 p-3 pb-5 mb-3">
+                    <h1 class="text-danger">DATA SCIENCE</h1>
                     <p class="text-left pt-4">
                         In recent times, Data Science has become one of the most<br> profitable and most
                         sought-after
@@ -842,12 +851,11 @@
                         improve
                         performance.
                     </p>
-                    <div class="mt-4">
-                        <button type="button" class="btn btn-danger">Expolore The Courses</button>
-                        <button class="btn btn-outline-danger">SIGN UP</button>
+                    <div class="ml-3">
+                        <button class="btn btn-outline-danger fw-bold text-uppercase">SIGN UP</button>
                     </div>
                 </div>
-                <div class="col-lg-5 col-md-5 cols-sm-6  fs-6">
+                <div class="col-lg-5 col-md-5 cols-sm-6 fs-6">
                     <div class="container border shadow-lg course-1">
                         <div class="row pt-3">
                             <div class="col-lg-6 col-md-6 col-sm-5 ">
@@ -855,12 +863,9 @@
                                     <i class="bi bi-file-earmark-text"></i> Course details
                                 </p>
                             </div>
-                            <div class="col-lg-6 col-md-6 col-sm-5 fw-bold">
-                                <a href="#">Learn<i class="bi bi-chevron-compact-right"></i></i></a>
-                            </div>
                             <hr>
-                            <div class="my-auto">
-                                <table class="table table-dark table-striped">
+                            <div class="table-responsive-md overflow-auto">
+                                <table class="table table-dark">
                                     <thead>
                                         <tr class="">
                                             <th scope="col">#</th>
@@ -882,9 +887,9 @@
                                         </tr>
                                         <tr>
                                             <th scope="row"></th>
-                                            <td>4 months</td>
+                                            <td>3 months</td>
                                             <td>2 months</td>
-                                            <td>6 months</td>
+                                            <td>4 months</td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -997,19 +1002,19 @@
                         <a href="#Python">Python</a>
                     </p>
                     <p>
-                        <a href="#Web Development">Web Development</a>
+                        <a href="#Web-Development">Web Development</a>
                     </p>
                     <p>
-                        <a href="#App Development">App Development</a>
+                        <a href="#App-Development">App Development</a>
                     </p>
                     <p>
-                        <a href="#Embedded Systems">Embedded Systems</a>
+                        <a href="#Embedded-Systems">Embedded Systems</a>
                     </p>
+                    <!-- <p>
+                        <a href="#Cyber-Security">Cyber Security</a>
+                    </p> -->
                     <p>
-                        <a href="#Cyber Security">Cyber Security</a>
-                    </p>
-                    <p>
-                        <a href="#Data Science">Data Science</a>
+                        <a href="#Data-Science">Data Science</a>
                     </p>
                 </div>
                 <div class="col-md-3 col-lg-3 col-xl-2 mx-auto mt-3">
@@ -1024,9 +1029,9 @@
                     <p>
                         <a href="#">Our Story</a>
                     </p>
-                    <p>
+                    <!-- <p>
                         <a href="#">Blog</a>
-                    </p>
+                    </p> -->
                     <p>
                         <a href="#">Contact us</a>
                     </p>
@@ -1079,6 +1084,7 @@
     <script src="./js/popper.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
     <script src="./vendor/aos/aos.js"></script>
+    <script src="./js/script.js"></script>
     <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
     <script>
         if (AOS) {
