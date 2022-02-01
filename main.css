@@ -100,6 +100,7 @@
     .col button:focus{
         color: white !important;
     }
+    
    
   
     h3 img{
@@ -247,8 +248,8 @@ animation-timing-function: ease;
 
 }
 .h{
-  height: 507px;
-}
+  height: 520px;
+} 
 
 .testimonials .testimonial-wrap {
   padding-left: 50px;
